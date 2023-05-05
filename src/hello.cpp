@@ -1,5 +1,5 @@
 #include <iostream>
 
 std::string hello() {
-    return "hello";
+    return "hello\n";
 }
