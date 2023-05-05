@@ -22,7 +22,11 @@ jobs:
           repository: ikoznov-cross-repo/lib1
           path: lib1
       -
+        run: ls lib1
+      -
         uses: actions/checkout@v3
         with:
           repository: ikoznov-cross-repo/main
           path: main
+      -
+        run: ls main
