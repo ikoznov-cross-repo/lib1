@@ -11,5 +11,8 @@ jobs:
         with:
           definition-file: https://raw.githubusercontent.com/ikoznov-cross-repo/main/main/.github/definitions.yml
           logger-level: trace
+          skip-execution: true
+          skip-checkout: true
+          skip-parallel-checkout: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
